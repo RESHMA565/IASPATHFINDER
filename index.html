@@ -1,0 +1,198 @@
+<!-- PROFESSIONAL index.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>IAS PathFinder</title>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+
+    <div class="container">
+
+        <a class="navbar-brand">
+            IAS PathFinder
+        </a>
+
+        <div>
+
+            <a href="/login" class="btn btn-outline-light me-2">
+                Login
+            </a>
+
+            <a href="/register" class="btn btn-primary">
+                Register
+            </a>
+
+        </div>
+
+    </div>
+
+</nav>
+
+<!-- HERO SECTION -->
+
+<section class="hero-section">
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <div class="col-md-6">
+
+                <h1 class="main-title">
+                    Crack UPSC Smartly
+                </h1>
+
+                <p class="hero-text">
+
+                    AI-powered IAS preparation roadmap system
+                    with mock tests, analytics, notes, and
+                    current affairs tracking.
+
+                </p>
+
+                <div class="mt-4">
+
+                    <a href="/register"
+                       class="btn btn-primary custom-btn">
+
+                        Start Learning
+
+                    </a>
+
+                    <a href="/login"
+                       class="btn btn-dark custom-btn ms-3">
+
+                        Login
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-6 text-center">
+
+                <img src="{{ url_for('static', filename='images/banner.jpg') }}"
+                     class="img-fluid rounded-4 shadow-lg">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FEATURES -->
+
+<section class="pb-5">
+
+    <div class="container">
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+
+                <div class="feature-card shadow-sm text-center">
+
+                    <div class="feature-icon">
+                        📚
+                    </div>
+
+                    <h3>
+                        Smart Roadmaps
+                    </h3>
+
+                    <p class="text-muted mt-3">
+
+                        Personalized preparation plans for UPSC aspirants.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="feature-card shadow-sm text-center">
+
+                    <div class="feature-icon">
+                        📝
+                    </div>
+
+                    <h3>
+                        Mock Tests
+                    </h3>
+
+                    <p class="text-muted mt-3">
+
+                        Practice prelims questions with real exam patterns.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="feature-card shadow-sm text-center">
+
+                    <div class="feature-icon">
+                        📈
+                    </div>
+
+                    <h3>
+                        Performance Analytics
+                    </h3>
+
+                    <p class="text-muted mt-3">
+
+                        Analyze strengths and improve weak subjects.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer class="footer text-center">
+
+    <h5>
+        © 2026 IAS PathFinder
+    </h5>
+
+    <p class="mt-2">
+        Developed using Flask & SQLite3
+    </p>
+
+</footer>
+
+</body>
+</html>

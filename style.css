@@ -1,0 +1,372 @@
+/* GOOGLE FONT */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+/* BODY */
+
+body{
+
+    background:#f4f7fb;
+    overflow-x:hidden;
+
+}
+
+/* NAVBAR */
+
+.navbar{
+
+    background:linear-gradient(135deg,#0f172a,#1e293b);
+    padding:18px;
+
+}
+
+.navbar-brand{
+
+    font-size:28px;
+    font-weight:700;
+    color:white !important;
+
+}
+
+/* MAIN TITLES */
+
+.main-title{
+
+    font-size:55px;
+    font-weight:700;
+    color:#0f172a;
+
+}
+
+.hero-text{
+
+    font-size:20px;
+    color:#64748b;
+    margin-top:15px;
+
+}
+
+/* SIDEBAR */
+
+.sidebar{
+
+    width:260px;
+    height:100vh;
+    background:linear-gradient(180deg,#0f172a,#1e293b);
+    position:fixed;
+    padding:30px;
+    box-shadow:0px 0px 20px rgba(0,0,0,0.2);
+
+}
+
+.sidebar h2{
+
+    color:white;
+    font-weight:700;
+    margin-bottom:40px;
+
+}
+
+.sidebar a{
+
+    display:block;
+    text-decoration:none;
+    padding:15px;
+    margin-bottom:15px;
+    border-radius:14px;
+    color:white;
+    font-size:17px;
+    transition:0.3s;
+
+}
+
+.sidebar a:hover{
+
+    background:#2563eb;
+    transform:translateX(5px);
+
+}
+
+/* MAIN CONTENT */
+
+.main-content{
+
+    margin-left:280px;
+    padding:40px;
+
+}
+
+/* PROFILE IMAGE */
+
+.profile-img{
+
+    width:130px;
+    height:130px;
+    border-radius:50%;
+    border:5px solid #2563eb;
+    object-fit:cover;
+    box-shadow:0px 8px 20px rgba(37,99,235,0.3);
+
+}
+
+/* DASHBOARD CARDS */
+
+.feature-card{
+
+    background:white;
+    border-radius:24px;
+    padding:35px;
+    transition:0.4s;
+    border:none;
+
+}
+
+.feature-card:hover{
+
+    transform:translateY(-10px);
+    box-shadow:0px 15px 30px rgba(0,0,0,0.15);
+
+}
+
+.feature-card h3{
+
+    font-size:45px;
+
+}
+
+.feature-card h4{
+
+    font-weight:600;
+    margin-top:15px;
+
+}
+
+.feature-card p{
+
+    color:#64748b;
+    margin-top:10px;
+
+}
+
+/* BUTTONS */
+
+.btn{
+
+    border-radius:14px !important;
+    font-weight:600 !important;
+    transition:0.3s !important;
+
+}
+
+.btn:hover{
+
+    transform:translateY(-3px);
+
+}
+
+/* ROADMAP BUTTONS */
+
+.roadmap-btn{
+
+    padding:15px 35px;
+    border:none;
+    border-radius:16px;
+    font-size:18px;
+    font-weight:600;
+    transition:0.3s;
+    text-decoration:none;
+    display:inline-block;
+    color:white;
+
+}
+
+.roadmap-btn:hover{
+
+    transform:translateY(-5px);
+    box-shadow:0px 10px 20px rgba(0,0,0,0.2);
+
+}
+
+.btn-pattern{
+
+    background:linear-gradient(135deg,#7c3aed,#6d28d9);
+
+}
+
+.btn-foundation{
+
+    background:linear-gradient(135deg,#2563eb,#1d4ed8);
+
+}
+
+.btn-advanced{
+
+    background:linear-gradient(135deg,#16a34a,#15803d);
+
+}
+
+.btn-interview{
+
+    background:linear-gradient(135deg,#dc2626,#b91c1c);
+
+}
+
+/* ROADMAP CARDS */
+
+.card{
+
+    border:none !important;
+    border-radius:24px !important;
+    overflow:hidden;
+
+}
+
+.card:hover{
+
+    transition:0.4s;
+    transform:translateY(-5px);
+
+}
+
+/* TABLES */
+
+.table{
+
+    border-radius:20px;
+    overflow:hidden;
+
+}
+
+.table th{
+
+    padding:18px !important;
+
+}
+
+.table td{
+
+    padding:18px !important;
+
+}
+
+/* ALERTS */
+
+.alert{
+
+    border:none !important;
+    border-radius:16px !important;
+    padding:18px;
+
+}
+
+/* PROGRESS BAR */
+
+.progress{
+
+    height:25px;
+    border-radius:20px;
+    overflow:hidden;
+
+}
+
+.progress-bar{
+
+    font-size:15px;
+    font-weight:600;
+
+}
+
+/* TIMER */
+
+#timer{
+
+    font-size:55px;
+    font-weight:700;
+    color:#2563eb;
+
+}
+
+/* NOTES */
+
+textarea{
+
+    resize:none !important;
+    border-radius:16px !important;
+
+}
+
+input,select{
+
+    border-radius:14px !important;
+    padding:12px !important;
+
+}
+
+/* HEADLINES */
+
+marquee{
+
+    font-size:18px;
+    font-weight:500;
+    color:#2563eb;
+
+}
+
+/* FOOTER */
+
+.footer{
+
+    text-align:center;
+    padding:30px;
+    color:#64748b;
+
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#2563eb;
+    border-radius:20px;
+
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+    .sidebar{
+
+        width:100%;
+        height:auto;
+        position:relative;
+
+    }
+
+    .main-content{
+
+        margin-left:0;
+        padding:20px;
+
+    }
+
+    .main-title{
+
+        font-size:38px;
+
+    }
+
+}

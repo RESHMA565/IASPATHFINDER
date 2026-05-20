@@ -1,0 +1,4 @@
+<!-- BANNER IMAGE -->
+
+<img src="{{ url_for('static', filename='images/banner.jpg') }}"
+     class="img-fluid rounded shadow mt-4">
